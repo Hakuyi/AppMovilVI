@@ -15,6 +15,7 @@ import PlayButton from '../components/PlayButton';
 import StarRating from 'react-native-star-rating';
 import {getMovie} from '../services/service';
 import dateFormat from 'dateformat';
+import StopButton from '../components/StopButton'
 
 
 const placeholderImage = require('../assets/images/placeholder.png');

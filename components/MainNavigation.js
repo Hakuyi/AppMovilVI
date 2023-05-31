@@ -21,7 +21,7 @@ class MainNavigation extends React.PureComponent{
                 }}
                 />
               <Stack.Screen
-                    name="Detalle"
+                    name="Detail"
                     component={Detail}
                     options={{
                     headerTransparent: true,
@@ -31,7 +31,7 @@ class MainNavigation extends React.PureComponent{
                     }}
                 />
                 <Stack.Screen
-                name="Busqueda"
+                name="Search"
                 component={Search}
                 options={{
                     headerTransparent: true,
